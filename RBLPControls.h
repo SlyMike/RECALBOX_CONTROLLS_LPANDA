@@ -13,7 +13,7 @@
 #define BTN_P1_Y			  11	//		LEFT_CTRL
 #define BTN_P1_L1			  12	//		KEY_SPACE
 #define BTN_P1_R1			  A0  //		KEY_X
-#define BTN_FE_HOTHEY		A1  //		KEY_C
+#define BTN_FE_HOTKEY		A1  //		KEY_C
 #define BTN_FE_ACCEPT		A2  //		KEY_A
 #define BTN_FE_BACK			A3  //		KEY_S
 #define BTN_FE_MENU			A4  //		KEY_RETURN
