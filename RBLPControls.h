@@ -79,29 +79,6 @@ typedef struct
 #define KEY_F23					    0xFA	250
 #define KEY_F24					    0xFB	251
 
-#define KEY_MUTE				    0x7F
-#define KEY_VOLUMEUP			  0x80
-#define KEY_VOLUMEDOWN			0x81
-
-#define KEY_KEYPAD_0			  0x62
-#define KEY_KEYPAD_1			  0x59
-#define KEY_KEYPAD_2			  0x5A
-#define KEY_KEYPAD_3			  0x5B
-#define KEY_KEYPAD_4			  0x5C
-#define KEY_KEYPAD_5			  0x5D
-#define KEY_KEYPAD_6			  0x5E
-#define KEY_KEYPAD_7			  0x5F
-#define KEY_KEYPAD_8			  0x60
-#define KEY_KEYPAD_9			  0x61
-#define KEY_KEYPAD_DECIMAL	0x63
-#define KEY_KEYPAD_ENTER		0x58
-#define KEY_KEYPAD_PLUS			0x57
-#define KEY_KEYPAD_MINUS		0x56
-#define KEY_KEYPAD_MULTIPLY	0x55
-#define KEY_KEYPAD_DIVIDE		0x54
-#define KEY_KEYPAD_NUMLOCK	0x53
-#define KEY_KEYPAD_EQUALS		0x67
-
 Space is decimal 32, or 0x20 in Hexadecimal.
 Keyboard.write(' '); should work - as should Keyboard.write((char) 32); or Keyboard.write((char) 0x20);.
 */
