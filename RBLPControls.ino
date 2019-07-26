@@ -8,7 +8,7 @@
 #include "TimerOne.h"
 #include <Keyboard.h>
 
-#define DEBOUNCE_DELAY 25
+#define DEBOUNCE_DELAY 2
 
 const uint8_t user_pins[] = { BTN_P1_START, BTN_P1_SELECT, BTN_P1_UP, BTN_P1_DOWN, BTN_P1_LEFT, BTN_P1_RIGHT, BTN_P1_A, BTN_P1_B, BTN_P1_X, BTN_P1_Y, BTN_P1_L1, BTN_P1_R1, BTN_FE_HOTKEY, BTN_FE_ACCEPT, BTN_FE_BACK, BTN_FE_MENU, BTN_FE_QUITEM };
 const uint8_t user_keys[] = { '1', '3', KEY_UP_ARROW, KEY_DOWN_ARROW, KEY_LEFT_ARROW, KEY_RIGHT_ARROW, 'z', KEY_LEFT_SHIFT, KEY_LEFT_ALT, KEY_LEFT_CTRL, ' ', 'x', 'c', 'a', 's', KEY_RETURN, KEY_ESC };
@@ -16,9 +16,9 @@ const uint8_t user_keys[] = { '1', '3', KEY_UP_ARROW, KEY_DOWN_ARROW, KEY_LEFT_A
 static button_state button_states[BUTTON_COUNT] = {};
 
 void setup() {
-  Serial.begin(9600);
+  //Serial.begin(9600);
   //while(!Serial);
-  Serial.setTimeout(100);
+  //Serial.setTimeout(100);
 
   // Setup pins as input with pullup resistor
   for ( uint8_t i = 0; i < BUTTON_COUNT; i++ ) {
