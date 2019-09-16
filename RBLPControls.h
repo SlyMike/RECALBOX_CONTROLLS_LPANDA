@@ -1,6 +1,8 @@
 #include <arduino.h>
 #include <Keyboard.h>
 
+#define BUTTON_COUNT         17
+
 #define BTN_P1_START		2	//			KEY_1
 #define BTN_P1_SELECT		3	//			KEY_3
 #define BTN_P1_UP			  4	//			KEY_UP
